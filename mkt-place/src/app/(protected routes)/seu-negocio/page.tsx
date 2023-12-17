@@ -1,5 +1,7 @@
-export default function seuNegocio() {
+import DashboardProducts from "@/components/dashboard_Produtos";
+
+export default async function seuNegocio() {
     return (
-        <h2>Rota protegida seuNegocio</h2>
+        <DashboardProducts />
     );
 } 
