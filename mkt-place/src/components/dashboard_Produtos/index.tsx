@@ -1,3 +1,4 @@
+import ModalCreateProduct from "../ModalCreateProduct";
 import OpenCreateProductModal from "./openCreateProductModal";
 import YourProductList from "./yourProductList";
 
@@ -7,6 +8,7 @@ export default function DashboardProducts  () {
             <div className="w-full flex justify-between py-2 px-2">
                 <h2 className="font-semibold text-2xl">Meus Produtos</h2>
                 <OpenCreateProductModal />
+                <ModalCreateProduct />
             </div>
             <YourProductList />
         </section>
